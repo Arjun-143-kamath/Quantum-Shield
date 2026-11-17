@@ -1,0 +1,42 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+
+data/keys/*
+data/incoming/*
+data/outgoing/*
+data/*.db
+
+research/results/*
+!.gitkeep
+
+.env
+
+# QuantumShield private data
+data/keys/*
+data/incoming/*
+data/outgoing/*
+data/received/*
+
+# Local security database
+data/*.db
+data/*.db-*
+data/*.sqlite*
+data/*.sqlite3*
+
+# Benchmark results (retain local experiment data)
+research/results/*
+!.gitkeep
+
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env

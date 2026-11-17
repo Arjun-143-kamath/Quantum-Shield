@@ -1,0 +1,47 @@
+
+# Git
+.git
+.gitignore
+
+# Python environment
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+
+# Testing and caches
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+htmlcov
+
+# Local application data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local benchmark results
+research/results/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Existing Docker artifacts
+Dockerfile.old
+
